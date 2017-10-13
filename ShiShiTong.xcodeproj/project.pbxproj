@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184DF43F1F906BC800B27FE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF43E1F906BC800B27FE6 /* AppDelegate.m */; };
+		184DF4421F906BC800B27FE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF4411F906BC800B27FE6 /* ViewController.m */; };
+		184DF4451F906BC800B27FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DF4431F906BC800B27FE6 /* Main.storyboard */; };
+		184DF4471F906BC800B27FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DF4461F906BC800B27FE6 /* Assets.xcassets */; };
+		184DF44A1F906BC800B27FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DF4481F906BC800B27FE6 /* LaunchScreen.storyboard */; };
+		184DF44D1F906BC800B27FE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF44C1F906BC800B27FE6 /* main.m */; };
+		184DF45D1F9089A200B27FE6 /* YWBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF45C1F9089A200B27FE6 /* YWBaseController.m */; };
+		184DF4631F908A1300B27FE6 /* YWNavBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF4621F908A1300B27FE6 /* YWNavBaseController.m */; };
+		D9FEC9CC5BCD51D1A7FFA725 /* libPods-ShiShiTong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180F78221F90AF4500B1C1E3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		180F78241F90B39C00B1C1E3 /* UIView+Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Alert.h"; sourceTree = "<group>"; };
+		180F78251F90B39D00B1C1E3 /* UIResponder+Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		180F78261F90B39D00B1C1E3 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		180F78271F90B39D00B1C1E3 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		180F78281F90B39D00B1C1E3 /* UIView+Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alert.m"; sourceTree = "<group>"; };
+		180F78291F90B39D00B1C1E3 /* UIResponder+Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		180F782A1F90B39D00B1C1E3 /* UIView+Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Controller.h"; sourceTree = "<group>"; };
+		180F782B1F90B39D00B1C1E3 /* UIView+Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Controller.m"; sourceTree = "<group>"; };
+		184DF43A1F906BC800B27FE6 /* ShiShiTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiShiTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DF43D1F906BC800B27FE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184DF43E1F906BC800B27FE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184DF4401F906BC800B27FE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184DF4411F906BC800B27FE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184DF4441F906BC800B27FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184DF4461F906BC800B27FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184DF4491F906BC800B27FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184DF44B1F906BC800B27FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184DF44C1F906BC800B27FE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184DF45B1F9089A200B27FE6 /* YWBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWBaseController.h; sourceTree = "<group>"; };
+		184DF45C1F9089A200B27FE6 /* YWBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWBaseController.m; sourceTree = "<group>"; };
+		184DF4611F908A1300B27FE6 /* YWNavBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWNavBaseController.h; sourceTree = "<group>"; };
+		184DF4621F908A1300B27FE6 /* YWNavBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWNavBaseController.m; sourceTree = "<group>"; };
+		43BCD400415D52366CB61D97 /* Pods-ShiShiTong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiShiTong.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong.release.xcconfig"; sourceTree = "<group>"; };
+		64C04F15A26A96F432158CA0 /* Pods-ShiShiTong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiShiTong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong.debug.xcconfig"; sourceTree = "<group>"; };
+		BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiShiTong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184DF4371F906BC800B27FE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FEC9CC5BCD51D1A7FFA725 /* libPods-ShiShiTong.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180F78231F90B37700B1C1E3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				180F78291F90B39D00B1C1E3 /* UIResponder+Router.h */,
+				180F78251F90B39D00B1C1E3 /* UIResponder+Router.m */,
+				180F78241F90B39C00B1C1E3 /* UIView+Alert.h */,
+				180F78281F90B39D00B1C1E3 /* UIView+Alert.m */,
+				180F782A1F90B39D00B1C1E3 /* UIView+Controller.h */,
+				180F782B1F90B39D00B1C1E3 /* UIView+Controller.m */,
+				180F78261F90B39D00B1C1E3 /* UIView+Extension.h */,
+				180F78271F90B39D00B1C1E3 /* UIView+Extension.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		180F782C1F90B67200B1C1E3 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		184DF4311F906BC800B27FE6 = {
+			isa = PBXGroup;
+			children = (
+				184DF43C1F906BC800B27FE6 /* ShiShiTong */,
+				184DF43B1F906BC800B27FE6 /* Products */,
+				4859D2FF3A205E5C042D9432 /* Pods */,
+				5424BD3709050DB461872232 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184DF43B1F906BC800B27FE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184DF43A1F906BC800B27FE6 /* ShiShiTong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184DF43C1F906BC800B27FE6 /* ShiShiTong */ = {
+			isa = PBXGroup;
+			children = (
+				180F78231F90B37700B1C1E3 /* Utils */,
+				184DF4551F906F2700B27FE6 /* Login */,
+				184DF4531F906E4D00B27FE6 /* BaseComponent */,
+				184DF4661F90AB2000B27FE6 /* Supporting Files */,
+			);
+			path = ShiShiTong;
+			sourceTree = "<group>";
+		};
+		184DF4531F906E4D00B27FE6 /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				180F782C1F90B67200B1C1E3 /* BaseView */,
+				184DF4541F906EC800B27FE6 /* BaseScene */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		184DF4541F906EC800B27FE6 /* BaseScene */ = {
+			isa = PBXGroup;
+			children = (
+				184DF45B1F9089A200B27FE6 /* YWBaseController.h */,
+				184DF45C1F9089A200B27FE6 /* YWBaseController.m */,
+				184DF4611F908A1300B27FE6 /* YWNavBaseController.h */,
+				184DF4621F908A1300B27FE6 /* YWNavBaseController.m */,
+			);
+			path = BaseScene;
+			sourceTree = "<group>";
+		};
+		184DF4551F906F2700B27FE6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				184DF4581F906FCE00B27FE6 /* Scene */,
+				184DF4571F906F7200B27FE6 /* Controller */,
+				184DF45A1F90717500B27FE6 /* Presenter  */,
+				184DF4591F90700900B27FE6 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		184DF4571F906F7200B27FE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184DF4581F906FCE00B27FE6 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		184DF4591F90700900B27FE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184DF45A1F90717500B27FE6 /* Presenter  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Presenter ";
+			sourceTree = "<group>";
+		};
+		184DF4661F90AB2000B27FE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184DF43D1F906BC800B27FE6 /* AppDelegate.h */,
+				184DF43E1F906BC800B27FE6 /* AppDelegate.m */,
+				184DF4401F906BC800B27FE6 /* ViewController.h */,
+				184DF4411F906BC800B27FE6 /* ViewController.m */,
+				184DF4431F906BC800B27FE6 /* Main.storyboard */,
+				184DF4461F906BC800B27FE6 /* Assets.xcassets */,
+				184DF4481F906BC800B27FE6 /* LaunchScreen.storyboard */,
+				184DF44B1F906BC800B27FE6 /* Info.plist */,
+				184DF44C1F906BC800B27FE6 /* main.m */,
+				180F78221F90AF4500B1C1E3 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4859D2FF3A205E5C042D9432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64C04F15A26A96F432158CA0 /* Pods-ShiShiTong.debug.xcconfig */,
+				43BCD400415D52366CB61D97 /* Pods-ShiShiTong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5424BD3709050DB461872232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184DF4391F906BC800B27FE6 /* ShiShiTong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DF4501F906BC800B27FE6 /* Build configuration list for PBXNativeTarget "ShiShiTong" */;
+			buildPhases = (
+				CF025FC053B579FB7DCA83E4 /* [CP] Check Pods Manifest.lock */,
+				184DF4361F906BC800B27FE6 /* Sources */,
+				184DF4371F906BC800B27FE6 /* Frameworks */,
+				184DF4381F906BC800B27FE6 /* Resources */,
+				060D398B370B70D97DB968A8 /* [CP] Embed Pods Frameworks */,
+				8A713810AFFA0FFC09921477 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiShiTong;
+			productName = ShiShiTong;
+			productReference = 184DF43A1F906BC800B27FE6 /* ShiShiTong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184DF4321F906BC800B27FE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YW;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = dahuoshi;
+				TargetAttributes = {
+					184DF4391F906BC800B27FE6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 184DF4351F906BC800B27FE6 /* Build configuration list for PBXProject "ShiShiTong" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184DF4311F906BC800B27FE6;
+			productRefGroup = 184DF43B1F906BC800B27FE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184DF4391F906BC800B27FE6 /* ShiShiTong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184DF4381F906BC800B27FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DF44A1F906BC800B27FE6 /* LaunchScreen.storyboard in Resources */,
+				184DF4471F906BC800B27FE6 /* Assets.xcassets in Resources */,
+				184DF4451F906BC800B27FE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060D398B370B70D97DB968A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A713810AFFA0FFC09921477 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF025FC053B579FB7DCA83E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShiShiTong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184DF4361F906BC800B27FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DF45D1F9089A200B27FE6 /* YWBaseController.m in Sources */,
+				184DF4421F906BC800B27FE6 /* ViewController.m in Sources */,
+				184DF4631F908A1300B27FE6 /* YWNavBaseController.m in Sources */,
+				184DF44D1F906BC800B27FE6 /* main.m in Sources */,
+				184DF43F1F906BC800B27FE6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184DF4431F906BC800B27FE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DF4441F906BC800B27FE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184DF4481F906BC800B27FE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DF4491F906BC800B27FE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184DF44E1F906BC800B27FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184DF44F1F906BC800B27FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184DF4511F906BC800B27FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C04F15A26A96F432158CA0 /* Pods-ShiShiTong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5PY75XDDR;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "/Users/dahuoshi/Library/Mobile Documents/com~apple~CloudDocs/MyShare/Workplace/ShiShiTong/ShiShiTong/PrefixHeader.pch";
+				INFOPLIST_FILE = ShiShiTong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beidougx.ShiShiTong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184DF4521F906BC800B27FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BCD400415D52366CB61D97 /* Pods-ShiShiTong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5PY75XDDR;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "/Users/dahuoshi/Library/Mobile Documents/com~apple~CloudDocs/MyShare/Workplace/ShiShiTong/ShiShiTong/PrefixHeader.pch";
+				INFOPLIST_FILE = ShiShiTong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beidougx.ShiShiTong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184DF4351F906BC800B27FE6 /* Build configuration list for PBXProject "ShiShiTong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DF44E1F906BC800B27FE6 /* Debug */,
+				184DF44F1F906BC800B27FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184DF4501F906BC800B27FE6 /* Build configuration list for PBXNativeTarget "ShiShiTong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DF4511F906BC800B27FE6 /* Debug */,
+				184DF4521F906BC800B27FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184DF4321F906BC800B27FE6 /* Project object */;
+}
