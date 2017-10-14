@@ -13,25 +13,25 @@
 #define APPSTORE                 @"APPSTORE"
 
 
-//"APPSTORE":http://xqx.beidougx.com:8260
-//"DEV_TEST":http://124.65.36.50:8263
-//"INTERNAL_TEST": http://124.65.36.50:8263
+//"APPSTORE":http://xxx.xxx.com:xxxx
+//"DEV_TEST":http://xxx.xxx.com:xxxx
+//"INTERNAL_TEST": http://xxx.xxx.com:xxxx
 
 #define HTTP_PATH_FOR_PRODUCTION                      APPSTORE
 
 
-#define HOST_FOR_ONLINE_RELEASE                  @"xqx.beidougx.com"               //正式上线使用地址
-#define IP_FOR_CHAT_ONLINE_RELEASE               @"211.95.11.163"                  //正式上线使用聊天地址
-#define HOST_FOR_ONLINE_TEST                     @"124.65.36.50"                   //测试环境使用地址
-#define HOST_FOR_LOCAL_TEST                      @"192.168.40.153"                 //本地测试局域网地址
+#define HOST_FOR_ONLINE_RELEASE                  @"xxx.xxx.com"               //正式上线使用地址
+#define IP_FOR_CHAT_ONLINE_RELEASE               @"xxx.xxx.com"                  //正式上线使用聊天地址
+#define HOST_FOR_ONLINE_TEST                     @"xxx.xxx.com"                   //测试环境使用地址
+#define HOST_FOR_LOCAL_TEST                      @"xxx.xxx.com"                 //本地测试局域网地址
 
-#define HOST_SUBPATH                             @"bacy/APINavController/cmd.do"   //API访问子地址
+#define HOST_SUBPATH                             @"xxx.xxx.com"   //API访问子地址
 
-#define PORT_FOR_ONLINE_RELEASE                  @"8260"                           //API正式线上使用端口号
-//#define PORT_FOR_ONLINE_DEV_TEST                 @"8263"                           //API彭老师-测试线上使用端口号
-#define PORT_FOR_ONLINE_INTERNAL_TEST            @"8231"                           //API曹老师-测试线上使用端口号
-#define PORT_FOR_LOCAL_DEV_TEST                  @"8100"                           //API本地局域网使用端口号
-#define PORT_FOR_CHAT                            @"8262"                           //语聊正式和测试统一端口号
+#define PORT_FOR_ONLINE_RELEASE                  @"xxxx"                           //API正式线上使用端口号
+#define PORT_FOR_ONLINE_DEV_TEST                 @"xxxx"                           //API测试线上使用端口号
+#define PORT_FOR_ONLINE_INTERNAL_TEST            @"xxxx"                           //API测试线2上使用端口号
+#define PORT_FOR_LOCAL_DEV_TEST                  @"xxxx"                           //API本地局域网使用端口号
+#define PORT_FOR_CHAT                            @"xxxx"                           //语聊正式和测试统一端口号
 
 
 #define PATH(HOST,PORT)                          [NSString stringWithFormat:@"http://%@:%@",HOST,PORT]
