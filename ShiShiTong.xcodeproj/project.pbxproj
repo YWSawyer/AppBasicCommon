@@ -15,6 +15,14 @@
 		184DF44D1F906BC800B27FE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF44C1F906BC800B27FE6 /* main.m */; };
 		184DF45D1F9089A200B27FE6 /* YWBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF45C1F9089A200B27FE6 /* YWBaseController.m */; };
 		184DF4631F908A1300B27FE6 /* YWNavBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF4621F908A1300B27FE6 /* YWNavBaseController.m */; };
+		779A89851F90FBE4002DE410 /* YWTabBarBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89841F90FBE4002DE410 /* YWTabBarBaseController.m */; };
+		779A89891F91E416002DE410 /* YWDDLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89881F91E416002DE410 /* YWDDLogFormatter.m */; };
+		779A898F1F91E54D002DE410 /* AppDelegate+YWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A898E1F91E54D002DE410 /* AppDelegate+YWConfig.m */; };
+		779A89921F920C28002DE410 /* YWBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89911F920C28002DE410 /* YWBaseView.m */; };
+		779A89951F920C6C002DE410 /* YWBaseConfigCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89941F920C6C002DE410 /* YWBaseConfigCenter.m */; };
+		779A899A1F921139002DE410 /* YWBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89991F921139002DE410 /* YWBasePresenter.m */; };
+		779A899E1F9211B6002DE410 /* YWBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A899D1F9211B6002DE410 /* YWBaseRequest.m */; };
+		779A89B91F922904002DE410 /* YWCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89B81F922904002DE410 /* YWCommonUtils.m */; };
 		D9FEC9CC5BCD51D1A7FFA725 /* libPods-ShiShiTong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +52,35 @@
 		184DF4621F908A1300B27FE6 /* YWNavBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWNavBaseController.m; sourceTree = "<group>"; };
 		43BCD400415D52366CB61D97 /* Pods-ShiShiTong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiShiTong.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong.release.xcconfig"; sourceTree = "<group>"; };
 		64C04F15A26A96F432158CA0 /* Pods-ShiShiTong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiShiTong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShiShiTong/Pods-ShiShiTong.debug.xcconfig"; sourceTree = "<group>"; };
+		779A89831F90FBE4002DE410 /* YWTabBarBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWTabBarBaseController.h; sourceTree = "<group>"; };
+		779A89841F90FBE4002DE410 /* YWTabBarBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWTabBarBaseController.m; sourceTree = "<group>"; };
+		779A89871F91E416002DE410 /* YWDDLogFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWDDLogFormatter.h; sourceTree = "<group>"; };
+		779A89881F91E416002DE410 /* YWDDLogFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWDDLogFormatter.m; sourceTree = "<group>"; };
+		779A898D1F91E54D002DE410 /* AppDelegate+YWConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+YWConfig.h"; sourceTree = "<group>"; };
+		779A898E1F91E54D002DE410 /* AppDelegate+YWConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+YWConfig.m"; sourceTree = "<group>"; };
+		779A89901F920C28002DE410 /* YWBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWBaseView.h; sourceTree = "<group>"; };
+		779A89911F920C28002DE410 /* YWBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWBaseView.m; sourceTree = "<group>"; };
+		779A89931F920C6C002DE410 /* YWBaseConfigCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWBaseConfigCenter.h; sourceTree = "<group>"; };
+		779A89941F920C6C002DE410 /* YWBaseConfigCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWBaseConfigCenter.m; sourceTree = "<group>"; };
+		779A89981F921139002DE410 /* YWBasePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWBasePresenter.h; sourceTree = "<group>"; };
+		779A89991F921139002DE410 /* YWBasePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWBasePresenter.m; sourceTree = "<group>"; };
+		779A899C1F9211B6002DE410 /* YWBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWBaseRequest.h; sourceTree = "<group>"; };
+		779A899D1F9211B6002DE410 /* YWBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWBaseRequest.m; sourceTree = "<group>"; };
+		779A89A01F921424002DE410 /* YTKChainRequest+AnimatingAccessory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YTKChainRequest+AnimatingAccessory.m"; sourceTree = "<group>"; };
+		779A89A11F921425002DE410 /* YTKAnimatingRequestAccessory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKAnimatingRequestAccessory.m; sourceTree = "<group>"; };
+		779A89A21F921425002DE410 /* YTKBatchRequest+AnimatingAccessory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YTKBatchRequest+AnimatingAccessory.m"; sourceTree = "<group>"; };
+		779A89A31F921425002DE410 /* YTKAnimatingRequestAccessory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKAnimatingRequestAccessory.h; sourceTree = "<group>"; };
+		779A89A41F921426002DE410 /* YTKBaseRequest+AnimatingAccessory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YTKBaseRequest+AnimatingAccessory.h"; sourceTree = "<group>"; };
+		779A89A51F921426002DE410 /* YTKBatchRequest+AnimatingAccessory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YTKBatchRequest+AnimatingAccessory.h"; sourceTree = "<group>"; };
+		779A89A61F921426002DE410 /* YTKBaseRequest+AnimatingAccessory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YTKBaseRequest+AnimatingAccessory.m"; sourceTree = "<group>"; };
+		779A89A71F921427002DE410 /* YTKChainRequest+AnimatingAccessory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YTKChainRequest+AnimatingAccessory.h"; sourceTree = "<group>"; };
+		779A89B61F9227BE002DE410 /* YWNetWorkDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWNetWorkDefine.h; sourceTree = "<group>"; };
+		779A89B71F922904002DE410 /* YWCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWCommonUtils.h; sourceTree = "<group>"; };
+		779A89B81F922904002DE410 /* YWCommonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWCommonUtils.m; sourceTree = "<group>"; };
+		779A89BA1F922C52002DE410 /* YWCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWCommonDefine.h; sourceTree = "<group>"; };
+		779A89BB1F923472002DE410 /* YWUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWUIDefine.h; sourceTree = "<group>"; };
+		779A89BC1F923B3E002DE410 /* NSObject+IPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IPAddress.h"; sourceTree = "<group>"; };
+		779A89BD1F923B3F002DE410 /* NSObject+IPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IPAddress.m"; sourceTree = "<group>"; };
 		BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiShiTong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,14 +99,9 @@
 		180F78231F90B37700B1C1E3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				180F78291F90B39D00B1C1E3 /* UIResponder+Router.h */,
-				180F78251F90B39D00B1C1E3 /* UIResponder+Router.m */,
-				180F78241F90B39C00B1C1E3 /* UIView+Alert.h */,
-				180F78281F90B39D00B1C1E3 /* UIView+Alert.m */,
-				180F782A1F90B39D00B1C1E3 /* UIView+Controller.h */,
-				180F782B1F90B39D00B1C1E3 /* UIView+Controller.m */,
-				180F78261F90B39D00B1C1E3 /* UIView+Extension.h */,
-				180F78271F90B39D00B1C1E3 /* UIView+Extension.m */,
+				779A89AB1F921CFF002DE410 /* Service */,
+				779A89A81F921448002DE410 /* Extention */,
+				779A899F1F9213E4002DE410 /* YTKAccessory */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -77,6 +109,8 @@
 		180F782C1F90B67200B1C1E3 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				779A89901F920C28002DE410 /* YWBaseView.h */,
+				779A89911F920C28002DE410 /* YWBaseView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -102,7 +136,6 @@
 		184DF43C1F906BC800B27FE6 /* ShiShiTong */ = {
 			isa = PBXGroup;
 			children = (
-				180F78231F90B37700B1C1E3 /* Utils */,
 				184DF4551F906F2700B27FE6 /* Login */,
 				184DF4531F906E4D00B27FE6 /* BaseComponent */,
 				184DF4661F90AB2000B27FE6 /* Supporting Files */,
@@ -113,6 +146,12 @@
 		184DF4531F906E4D00B27FE6 /* BaseComponent */ = {
 			isa = PBXGroup;
 			children = (
+				779A89B51F92277B002DE410 /* McroDefine */,
+				779A89861F91E3E7002DE410 /* Config */,
+				180F78231F90B37700B1C1E3 /* Utils */,
+				779A899B1F921175002DE410 /* BaseRequest */,
+				779A89971F92110D002DE410 /* BasePresenter */,
+				779A89961F920C72002DE410 /* BaseController */,
 				180F782C1F90B67200B1C1E3 /* BaseView */,
 				184DF4541F906EC800B27FE6 /* BaseScene */,
 			);
@@ -126,6 +165,8 @@
 				184DF45C1F9089A200B27FE6 /* YWBaseController.m */,
 				184DF4611F908A1300B27FE6 /* YWNavBaseController.h */,
 				184DF4621F908A1300B27FE6 /* YWNavBaseController.m */,
+				779A89831F90FBE4002DE410 /* YWTabBarBaseController.h */,
+				779A89841F90FBE4002DE410 /* YWTabBarBaseController.m */,
 			);
 			path = BaseScene;
 			sourceTree = "<group>";
@@ -182,6 +223,8 @@
 				184DF44B1F906BC800B27FE6 /* Info.plist */,
 				184DF44C1F906BC800B27FE6 /* main.m */,
 				180F78221F90AF4500B1C1E3 /* PrefixHeader.pch */,
+				779A898D1F91E54D002DE410 /* AppDelegate+YWConfig.h */,
+				779A898E1F91E54D002DE410 /* AppDelegate+YWConfig.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +244,93 @@
 				BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779A89861F91E3E7002DE410 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				779A89871F91E416002DE410 /* YWDDLogFormatter.h */,
+				779A89881F91E416002DE410 /* YWDDLogFormatter.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		779A89961F920C72002DE410 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				779A89931F920C6C002DE410 /* YWBaseConfigCenter.h */,
+				779A89941F920C6C002DE410 /* YWBaseConfigCenter.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		779A89971F92110D002DE410 /* BasePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				779A89981F921139002DE410 /* YWBasePresenter.h */,
+				779A89991F921139002DE410 /* YWBasePresenter.m */,
+			);
+			path = BasePresenter;
+			sourceTree = "<group>";
+		};
+		779A899B1F921175002DE410 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				779A899C1F9211B6002DE410 /* YWBaseRequest.h */,
+				779A899D1F9211B6002DE410 /* YWBaseRequest.m */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		779A899F1F9213E4002DE410 /* YTKAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				779A89A31F921425002DE410 /* YTKAnimatingRequestAccessory.h */,
+				779A89A11F921425002DE410 /* YTKAnimatingRequestAccessory.m */,
+				779A89A41F921426002DE410 /* YTKBaseRequest+AnimatingAccessory.h */,
+				779A89A61F921426002DE410 /* YTKBaseRequest+AnimatingAccessory.m */,
+				779A89A51F921426002DE410 /* YTKBatchRequest+AnimatingAccessory.h */,
+				779A89A21F921425002DE410 /* YTKBatchRequest+AnimatingAccessory.m */,
+				779A89A71F921427002DE410 /* YTKChainRequest+AnimatingAccessory.h */,
+				779A89A01F921424002DE410 /* YTKChainRequest+AnimatingAccessory.m */,
+			);
+			path = YTKAccessory;
+			sourceTree = "<group>";
+		};
+		779A89A81F921448002DE410 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				779A89BC1F923B3E002DE410 /* NSObject+IPAddress.h */,
+				779A89BD1F923B3F002DE410 /* NSObject+IPAddress.m */,
+				180F78291F90B39D00B1C1E3 /* UIResponder+Router.h */,
+				180F78251F90B39D00B1C1E3 /* UIResponder+Router.m */,
+				180F78241F90B39C00B1C1E3 /* UIView+Alert.h */,
+				180F78281F90B39D00B1C1E3 /* UIView+Alert.m */,
+				180F782A1F90B39D00B1C1E3 /* UIView+Controller.h */,
+				180F782B1F90B39D00B1C1E3 /* UIView+Controller.m */,
+				180F78261F90B39D00B1C1E3 /* UIView+Extension.h */,
+				180F78271F90B39D00B1C1E3 /* UIView+Extension.m */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		779A89AB1F921CFF002DE410 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				779A89B71F922904002DE410 /* YWCommonUtils.h */,
+				779A89B81F922904002DE410 /* YWCommonUtils.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		779A89B51F92277B002DE410 /* McroDefine */ = {
+			isa = PBXGroup;
+			children = (
+				779A89B61F9227BE002DE410 /* YWNetWorkDefine.h */,
+				779A89BA1F922C52002DE410 /* YWCommonDefine.h */,
+				779A89BB1F923472002DE410 /* YWUIDefine.h */,
+			);
+			path = McroDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,8 +467,16 @@
 				184DF45D1F9089A200B27FE6 /* YWBaseController.m in Sources */,
 				184DF4421F906BC800B27FE6 /* ViewController.m in Sources */,
 				184DF4631F908A1300B27FE6 /* YWNavBaseController.m in Sources */,
+				779A89921F920C28002DE410 /* YWBaseView.m in Sources */,
+				779A899A1F921139002DE410 /* YWBasePresenter.m in Sources */,
 				184DF44D1F906BC800B27FE6 /* main.m in Sources */,
+				779A89B91F922904002DE410 /* YWCommonUtils.m in Sources */,
+				779A899E1F9211B6002DE410 /* YWBaseRequest.m in Sources */,
+				779A89851F90FBE4002DE410 /* YWTabBarBaseController.m in Sources */,
 				184DF43F1F906BC800B27FE6 /* AppDelegate.m in Sources */,
+				779A89951F920C6C002DE410 /* YWBaseConfigCenter.m in Sources */,
+				779A898F1F91E54D002DE410 /* AppDelegate+YWConfig.m in Sources */,
+				779A89891F91E416002DE410 /* YWDDLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +614,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5PY75XDDR;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
-				GCC_PREFIX_HEADER = "/Users/dahuoshi/Library/Mobile Documents/com~apple~CloudDocs/MyShare/Workplace/ShiShiTong/ShiShiTong/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/ShiShiTong/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShiTong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beidougx.ShiShiTong;
@@ -493,7 +631,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5PY75XDDR;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
-				GCC_PREFIX_HEADER = "/Users/dahuoshi/Library/Mobile Documents/com~apple~CloudDocs/MyShare/Workplace/ShiShiTong/ShiShiTong/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/ShiShiTong/PrefixHeader.pch";
 				INFOPLIST_FILE = ShiShiTong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beidougx.ShiShiTong;

@@ -21,6 +21,7 @@ pod 'IQKeyboardManager', '~> 4.0.11'
 pod 'WZLBadge', '~> 1.2.1'
 pod 'HYBHelperKit', '~> 0.2.0'
 pod 'HYBImageCliped', '~> 2.0.0'
+pod 'CocoaLumberjack'
 
 pod 'YYKit'
 #pod 'YYCache'

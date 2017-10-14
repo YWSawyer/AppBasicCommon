@@ -19,6 +19,12 @@
 #import "UIView+Alert.h"
 #import "UIView+Controller.h"
 #import "UIResponder+Router.h"
+#import "YWCommonDefine.h"
+#import "YWNetWorkDefine.h"
+#import "YWCommonUtils.h"
+#import "YWUIDefine.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+static const int ddLogLevel = DDLogLevelVerbose;//定义日志级别
 #endif
 
 #endif /* PrefixHeader_pch */
