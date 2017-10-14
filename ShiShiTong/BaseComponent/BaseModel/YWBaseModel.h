@@ -1,14 +1,13 @@
 //
-//  YWBaseView.h
+//  YWBaseModel.h
 //  ShiShiTong
 //
 //  Created by wei.yuan on 14/10/2017.
 //  Copyright © 2017 dahuoshi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-
-@interface YWBaseView : UIView
+@interface YWBaseModel : NSObject
 
 @end

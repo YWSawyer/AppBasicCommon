@@ -23,6 +23,7 @@
 		779A899A1F921139002DE410 /* YWBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89991F921139002DE410 /* YWBasePresenter.m */; };
 		779A899E1F9211B6002DE410 /* YWBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A899D1F9211B6002DE410 /* YWBaseRequest.m */; };
 		779A89B91F922904002DE410 /* YWCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89B81F922904002DE410 /* YWCommonUtils.m */; };
+		779A89C11F924098002DE410 /* YWBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A89C01F924098002DE410 /* YWBaseModel.m */; };
 		D9FEC9CC5BCD51D1A7FFA725 /* libPods-ShiShiTong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,8 @@
 		779A89BB1F923472002DE410 /* YWUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWUIDefine.h; sourceTree = "<group>"; };
 		779A89BC1F923B3E002DE410 /* NSObject+IPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IPAddress.h"; sourceTree = "<group>"; };
 		779A89BD1F923B3F002DE410 /* NSObject+IPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IPAddress.m"; sourceTree = "<group>"; };
+		779A89BF1F924098002DE410 /* YWBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWBaseModel.h; sourceTree = "<group>"; };
+		779A89C01F924098002DE410 /* YWBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWBaseModel.m; sourceTree = "<group>"; };
 		BE98192E402F4235E42588D4 /* libPods-ShiShiTong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiShiTong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,9 +149,10 @@
 		184DF4531F906E4D00B27FE6 /* BaseComponent */ = {
 			isa = PBXGroup;
 			children = (
-				779A89B51F92277B002DE410 /* McroDefine */,
-				779A89861F91E3E7002DE410 /* Config */,
 				180F78231F90B37700B1C1E3 /* Utils */,
+				779A89861F91E3E7002DE410 /* Config */,
+				779A89B51F92277B002DE410 /* McroDefine */,
+				779A89BE1F92403F002DE410 /* BaseModel */,
 				779A899B1F921175002DE410 /* BaseRequest */,
 				779A89971F92110D002DE410 /* BasePresenter */,
 				779A89961F920C72002DE410 /* BaseController */,
@@ -333,6 +337,15 @@
 			path = McroDefine;
 			sourceTree = "<group>";
 		};
+		779A89BE1F92403F002DE410 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				779A89BF1F924098002DE410 /* YWBaseModel.h */,
+				779A89C01F924098002DE410 /* YWBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,6 +481,7 @@
 				184DF4421F906BC800B27FE6 /* ViewController.m in Sources */,
 				184DF4631F908A1300B27FE6 /* YWNavBaseController.m in Sources */,
 				779A89921F920C28002DE410 /* YWBaseView.m in Sources */,
+				779A89C11F924098002DE410 /* YWBaseModel.m in Sources */,
 				779A899A1F921139002DE410 /* YWBasePresenter.m in Sources */,
 				184DF44D1F906BC800B27FE6 /* main.m in Sources */,
 				779A89B91F922904002DE410 /* YWCommonUtils.m in Sources */,

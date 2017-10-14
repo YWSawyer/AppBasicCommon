@@ -19,8 +19,33 @@
     // Do any additional setup after loading the view.
     self.navigationController.navigationBar.translucent = NO;
     
+    [self configuration];
+    
+    [self addUI];
+    
+    [self fetchData];
+}
+
+/**
+ 场景中的模块配置
+ */
+- (void)configuration {
+    
+}
+
+/**
+ 将模块中的view添加到场景
+ */
+- (void)addUI {
+    
+}
 
 
+/**
+ 获取场景中需要的数据
+ */
+- (void)fetchData {
+    
 }
 
 - (CGFloat)viewOffsetY
